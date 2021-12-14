@@ -1,0 +1,31 @@
+body {
+    background: black;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: 'Share Tech Mono', monospace;
+    letter-spacing: 7px;
+   
+
+
+}
+.page{
+    display:flex;
+    justify-content: space-between;
+    margin:2% 5%;
+}
+.page a{
+    font-family: 'Share Tech Mono', monospace;
+    color:#17D4FE;
+    font-size: 50px;
+    text-decoration: none;
+}
+.page a:hover{
+    color:#034d5e;
+}

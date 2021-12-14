@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>JavaScript</title>
+
+        <link rel="stylesheet" href="stopwatch.css">
+        <script src="stopwatch.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="page">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="worldclock.html">Worldclock</a></div>   
+        </div>
+        <div id="stopwatch">
+            <div id="time">00:00:00</div>
+            <div id="mili">:00</div>
+            
+        </div>
+
+        <ul id="buttons">
+            <li><button id="resume" onclick="startTimer()">Start</button></li>
+            <li><button onclick="stopTimer()">Stop</button></li>
+
+            <li><button onclick="resetTimer()">Reset</button></li>
+        </ul>
+
+        
+    </body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    background: #202020;
+    color: green;
+}
+button {
+    width: 100px;
+    height: 30px;
+    border: 3px solid green;
+    border-radius: 50px;
+    background: #0F0F0F;
+    color: green;
+    cursor: pointer;
+}
+
+#stopwatch {
+    font-size: 100px;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    font-size: 60px;
+    color:green;
+    font-family: 'Share Tech Mono', monospace;
+}
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
+#mili{
+    font-size:30px;
+}
+.page{
+    display:flex;
+    justify-content: space-between;
+    margin:2% 5%;
+}
+.page a{
+    font-family: 'Share Tech Mono', monospace;
+    color:green;
+    font-size: 50px;
+    text-decoration: none;
+}
+.page a:hover{
+    color:#005000;
+}
