@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: #2F2f2f;
+    opacity: 100%;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    background-color: black;
+}
+
+.page a {
+    font-family: 'Share Tech Mono', monospace;
+    color: green;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.page a:hover {
+    color: #005000;
+}
+
+.welcome {
+    text-align: center;
+    opacity: 100%;
+}
+
+.welcome p {
+    font-size: 100px;
+    color: green;
+    border: green 5px solid;
+    background-color: black;
+    overflow: hidden;
+    padding: 2%;
+    margin: 10% 10%;
+}
+
+#background {
+    width: 100vw;
+    height: 82vh;
+    position: absolute;
+    top: 16vh;
+    opacity: 7%;
+    background-image: url(../../pics/background.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    overflow: none;
+}

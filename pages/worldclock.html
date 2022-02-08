@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="style/style.css">
-    <script src="" defer></script>
+    <link rel="stylesheet" href="styles/worldclock.css">
+    <script src="scripts/worldclock.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
@@ -14,14 +14,11 @@
 
 <body>
     <div class="page">
-        <div><a href="pages/stopwatch.html">Stopwatch</a></div>
-        <div><a href="pages/worldclock.html">Worldclock</a></div>
-    </div>
-
-    <div class="welcome">
-        <p>Welcome</p>
+        <div><a href="../index.html">Home</a></div>
+        <div><a href="stopwatch.html">Stopwatch</a></div> 
     </div>
     <div id="background"></div>
+    <div id="clockDisplay" class="clock" onload="showTime()"></div>
 
 
 </body>

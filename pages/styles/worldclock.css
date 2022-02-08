@@ -1,0 +1,51 @@
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: green;
+    font-size: 60px;
+    font-family: 'Share Tech Mono', monospace;
+    letter-spacing: 7px;
+    background-color: black;
+    border: green 5px solid;
+    border-radius: 3%;
+    padding: 2% 1%;
+}
+
+body {
+    margin: 0;
+    background-color: #2F2f2f;
+    opacity: 100%;
+}
+
+#background {
+    width: 100vw;
+    height: 82vh;
+    position: absolute;
+    top: 16vh;
+    opacity: 7%;
+    background-image: url(../../pics/background.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    overflow: none;
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    background-color: black;
+}
+
+.page a {
+    font-family: 'Share Tech Mono', monospace;
+    color: green;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.page a:hover {
+    color: #005000;
+}
